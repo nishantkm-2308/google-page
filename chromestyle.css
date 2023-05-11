@@ -1,0 +1,294 @@
+body {
+    background-image: url(mustang.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    position: absolute;
+    left: 642px;
+    top: 87px;
+    font-size: 70px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    animation: 5s linear 0s infinite running head;
+}
+
+@keyframes head {
+    0% {
+        color: whitesmoke;
+        text-shadow: 0px 0px 10px whitesmoke;
+
+    }
+
+    20% {
+        color: yellow;
+        text-shadow: 0px 0px 10px yellow;
+
+    }
+
+    40% {
+        color: cyan;
+        text-shadow: 0px 0px 10px cyan;
+
+    }
+
+    60% {
+        color: orange;
+        text-shadow: 0px 0px 10px orange;
+
+    }
+
+    80% {
+        color: orangered;
+        text-shadow: 0px 0px 10px orangered;
+
+    }
+
+    100% {
+        color: rgb(35, 251, 107);
+        text-shadow: 0px 0px 10px rgb(35, 251, 107);
+
+    }
+}
+
+h2 {
+    color: white;
+    border: 2px solid white;
+    margin-right: 82%;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding-left: 14px;
+    padding-right: 9px;
+    padding-top: 19px;
+    animation: 5s linear 0s infinite running nk;
+}
+
+@keyframes nk {
+    0% {
+        color: whitesmoke;
+        text-shadow: 0px 0px 10px whitesmoke;
+        border-color: whitesmoke;
+        box-shadow: 0px 0px 10px white;
+    }
+
+    20% {
+        color: yellow;
+        text-shadow: 0px 0px 10px yellow;
+        border-color: yellow;
+        box-shadow: 0px 0px 10px yellow;
+    }
+
+    40% {
+        color: cyan;
+        text-shadow: 0px 0px 10px cyan;
+        border-color: cyan;
+        box-shadow: 0px 0px 10px cyan;
+    }
+
+    60% {
+        color: orange;
+        text-shadow: 0px 0px 10px orange;
+        border-color: orange;
+        box-shadow: 0px 0px 10px orange;
+    }
+
+    80% {
+        color: orangered;
+        text-shadow: 0px 0px 10px orangered;
+        border-color: orangered;
+        box-shadow: 0px 0px 10px orangered;
+    }
+
+    100% {
+        color: rgb(35, 251, 107);
+        text-shadow: 0px 0px 10px rgb(35, 251, 107);
+        border-color: rgb(35, 251, 107);
+        transform: rotateY(360deg);
+        box-shadow: 0px 0px 10px rgb(35, 251, 107);
+    }
+}
+
+#searchbar {
+    position: absolute;
+    left: 497px;
+    top: 270px;
+    border-radius: 93px;
+    font-size: 30px;
+    padding-right: 12%;
+    box-shadow: 0px 0px 5px cyan;
+}
+
+#searchbar:hover {
+    box-shadow: 0px 0px 10px yellow;
+}
+
+#tp img {
+    position: absolute;
+    top: 360px;
+    left: 504px;
+
+}
+
+#tp p {
+    position: absolute;
+    top: 420px;
+    left: 478px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#drive img {
+    position: absolute;
+    top: 358px;
+    left: 665px;
+    border-radius: 100px;
+
+}
+
+#drive p {
+    position: absolute;
+    top: 420px;
+    left: 676px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#whatsapp img {
+    position: absolute;
+    top: 360px;
+    left: 827px;
+    border-radius: 30px;
+}
+
+#whatsapp p {
+    position: absolute;
+    top: 420px;
+    left: 817px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#chatgpt img {
+    position: absolute;
+    top: 356px;
+    left: 990px;
+    border-radius: 100px;
+}
+
+#chatgpt p {
+    position: absolute;
+    top: 420px;
+    left: 990px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#pw img {
+    position: absolute;
+    top: 493px;
+    left: 502px;
+    border-radius: 100px;
+}
+
+#pw p {
+    position: absolute;
+    top: 550px;
+    left: 523px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#docs img {
+    position: absolute;
+    top: 490px;
+    left: 662px;
+}
+
+#docs p {
+    position: absolute;
+    top: 550px;
+    left: 647px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#github img {
+    position: absolute;
+    top: 493px;
+    left: 824px;
+    border-radius: 100px;
+}
+
+#github p {
+    position: absolute;
+    top: 550px;
+    left: 827px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#yt img {
+    position: absolute;
+    top: 489px;
+    left: 990px;
+}
+
+#yt p {
+    position: absolute;
+    top: 550px;
+    left: 988px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#tp:hover {
+    color: red;
+}
+
+#gmail {
+    position: absolute;
+    right: 200px;
+    top: 20px;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+#gmail:hover {
+    text-decoration: underline;
+}
+
+#images {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+#images:hover {
+    text-decoration: underline;
+}
+
+#dp {
+    width: 85px;
+    position: absolute;
+    right: 7px;
+    top: 10px;
+}
+.icons {
+    width: 60px;
+}
+#dp:hover {
+    cursor: pointer;
+
+
+}
